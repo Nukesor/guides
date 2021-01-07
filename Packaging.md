@@ -50,15 +50,16 @@ If everything looks fine, your should be good go to.
 
 Include `$pkgver` in your sourc names.
 You can see an example of this in the example below, e.g. `"$pkgname-$pkgver.tar.gz::https://github.com/Nukesor/pueue/archive/v${pkgver}.tar.gz"`. \
-Without this installs might fail due to overwritten file warnings, depending on the package manager used by the user.
+Without this, installs might fail due to already existing files, depending on the package manager used by the user.
 
-Including the `$pkgver` in the source names, guarantees that different versions won't conflict if they're located in the same path.
+Including the `$pkgver` in the source names, guarantees that sources of different versions won't write to the same files, if they're located in the same directory.
 
 ### PKGBUILD only changes
 
 When updating your `PKGBUILD` without updating the `pkgver`, you have to increment the `pkgrel` version.
-This version is used to track these exact changes.
-You cannot push otherwise.
+The `pkgrel` is, for instance, used for changes in the build instructions or any patches which haven't been officially released yet.
+
+Additionally, the AUR PKGBUILD validator doesn't allow you to push your changes otherwise.
 
 ## Example config
 

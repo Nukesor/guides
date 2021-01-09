@@ -19,13 +19,13 @@ The resulting `massif.out.<pid>` file can then be opened with `massif-visualizer
 
 Packages: 
 
-- `rr` Deterministic playback for rust executables
+- `rr` Deterministic playback for executables.
     You might have to `echo 1 | sudo tee  /proc/sys/kernel/perf_event_paranoid` to disable some kernel security measures.
 
 
 ### Usage
 
-You have to compile with debug symbols enabled.
+Stuff needs to be compiled with debug symbols enabled.
 This is the default for tests, but for other builds you have to explicitely enable them.
 
 ```

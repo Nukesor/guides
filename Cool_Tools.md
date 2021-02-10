@@ -2,6 +2,10 @@
 
 iwd: Network manager
 
+# Gui tools
+
+- neovide: Graphical neovim client
+
 # Cli tools
 
 bpytop: Fancy htop

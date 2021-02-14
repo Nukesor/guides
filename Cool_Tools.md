@@ -20,7 +20,7 @@ flameshot: Super nice interactive screenshot tool
 
 # Legacy replacement
 
-- `ht` httpie/curl alternative, but fast and fearless
+- `xh` httpie/curl alternative
 - `procs` Modern ps alternative
 - `ripgrep` [rg]
 - `dust` Modern alternative to `du`

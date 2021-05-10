@@ -8,11 +8,12 @@ iwd: Network manager
 
 # Cli tools
 
-bpytop: Fancy htop
-translate-shell: Easy translation on the shell
-bandwhich: Monitor your network activity!
-broot: Fancy tree explorer
+- `bpytop` Fancy htop
+- `translate-shell` Easy translation on the shell
+- `bandwhich` Monitor your network activity!
+- `broot` Fancy tree explorer
 - `tokei` Lines of code
+- [atuin](https://github.com/ellie/atuin) Shell history synchronization
 
 # Other tools
 
